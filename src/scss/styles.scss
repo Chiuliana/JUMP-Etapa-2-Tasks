@@ -1,0 +1,86 @@
+@import "boosted/scss/orange-helvetica";
+@import "boosted/scss/boosted";
+
+.acces-top-orange {
+    background: url(/src/assets/icons/acess.png) right center/20px no-repeat;
+    padding-right: 23px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.cloud-top-orange {
+    background: url(/src/assets/icons/portin.png) right center/20px no-repeat;
+    padding-right: 23px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.finance-orange {
+    background: url(/src/assets/icons/icon-h-finance-white.svg) right center/18px 20px no-repeat;
+    padding-right: 23px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.contact-orange {
+    background: url(/src/assets/icons/contact-icon.svg) right center/18px 20px no-repeat;
+    padding-right: 23px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.search-orange {
+    background: url(/src/assets/icons/search-orange.svg) right center/18px 20px no-repeat;
+    padding-right: 23px;
+    cursor: pointer;
+    text-decoration: none;
+}
+.active_language {
+    background: url(/src/assets/icons/caret.png) right/14px no-repeat;
+    padding-right: 20px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.icon-f-assistance{
+    background: url(/src/assets/icons/contact-icon.svg) no-repeat;
+    background-size: 78%;
+    width: 35px;
+    height: 35px;
+}
+
+.icon-f-coverage-map{
+    background: url(/src/assets/icons/icon-coverage-map.svg) no-repeat;
+    background-size: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.icon-f-responsabilitate{
+    background: url(/src/assets/icons/icon-responsabilitate.svg) no-repeat;
+    background-size: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.icon-f-politica{
+    background: url(/src/assets/icons/file.png) no-repeat;
+    background-size: 100%;
+    width: 35px;
+    height: 35px;
+}
+
+.omd-orange {
+    color: #ff7900;
+}
+
+.login-section {
+    background-image: url(/src/assets/images/l-13.jpg);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    padding-top: 60px;
+
+    #login {
+        padding: 40px 40px 0;
+        display: flex;
+        flex-direction: column;
+    }
+}
+
