@@ -14,7 +14,7 @@
             <li class="nav-item"><a href="#" class="nav-link active" aria-current="page">Personal</a></li>
             <li class="nav-item"><a href="#" class="nav-link">Business</a></li>
           </ul>
-          <ul class="navbar-nav navbar-right">
+          <ul class="navbar-nav navbar-right" style="margin: auto 0;">
             <li class="list-item">
               <a class="acces-top-orange">
                 <span>
@@ -109,35 +109,41 @@
       </header>
     <main>
         <section class="login-section" >
-          <form id="login" action="">
-            <h3>Intră în cont</h3>
-            <label for="sign-in-email">E-mail sau număr de mobil Orange</label>
-            <input id="sign-in-email" type="email">
-            <label for="password">Parola</label>
-            <input type="password">
-            <span><a href="#">Ai uitat parola?</a></span>
-            <div>
-              <button type="submit">Conectează-te</button>
-              <button type="button">Creează cont Orange</button>
-            </div>
-            <div>
-              <span>Sau Conectează-te cu</span>
-            </div>
-            <div>
-              <div>
-                <img src="/src/assets/icons/google.png" alt="Google Sign In">
-                <div>
-                  Google
+          <div class="login-section-wrapper">
+            <form id="login" action="">
+              <h3>Intră în cont</h3>
+              <div class="input-wrapper">
+                <label for="login-email">E-mail sau număr de mobil Orange</label>
+                <input id="login-email" type="email">
+              </div>
+              <div style="margin-top: 20px;" class="input-wrapper">
+                <label for="password">Parola</label>
+                <input type="password">
+              </div>
+              <span class="forgot-password"><a href="#">Ai uitat parola?</a></span>
+              <div class="login-button-wrapper">
+                <button class="login-primary-button" type="submit">Conectează-te</button>
+                <button class="login-secondary-button" type="button">Creează cont Orange</button>
+              </div>
+              <div class="login-alternative">
+                <span>Sau Conectează-te cu</span>
+              </div>
+              <div class="login-method">
+                <div class="login-method-card">
+                  <img src="/src/assets/icons/google.png" alt="Google Sign In">
+                  <div>
+                    Google
+                  </div>
+                </div>
+                <div class="login-method-card">
+                  <img src="/src/assets/icons/sms.svg" alt="Google Sign In">
+                  <div>
+                    SMS
+                  </div>
                 </div>
               </div>
-              <div>
-                <img src="/src/assets/icons/sms.svg" alt="Google Sign In">
-                <div>
-                  SMS
-                </div>
-              </div>
-            </div>
-          </form>
+            </form>
+          </div>
         </section>
     </main>
     
